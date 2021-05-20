@@ -41,7 +41,7 @@ git push -u origin main
 
 1. 添加文件：
 ```
-git add *或者git add 文件名
+git add .或者git add 文件名
 ```
 2. 提交代码：
 ```
