@@ -1,9 +1,9 @@
-# Git命令</br> #
+# Git命令</br>
 ---
 
-# 提交本地代码进Github仓库： </br> #
+# 提交本地代码进Github仓库： </br>
 
-> # 第一次 #
+> # 第一次
 
 1. 将本地目录初始化为 Git 仓库：
 ```
@@ -37,7 +37,7 @@ git push -u origin main
 
 
 
-> # 第二次 #
+> # 第二次
 
 1. 添加文件：
 ```
@@ -55,7 +55,7 @@ git push -u origin main
 
 
 
-### 出错类型 ###
+### 出错类型
 
 **问题1:**
 
@@ -87,7 +87,7 @@ git pull --rebase origin main
 
 
 
-## 删除github仓库文件 ##
+## 删除github仓库文件
 <br>
 
 1. 进入需要删除github仓库中代码的本地文件目录(如g盘)删除test.md文件：
@@ -116,7 +116,7 @@ git push -u origin main
 <br>
 <br>
 
-## 其他 ##
+## 其他
 <br>
 
 显示origin与branch：
