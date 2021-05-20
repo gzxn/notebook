@@ -84,7 +84,11 @@ git pull --rebase origin main
 
 </br>
 </br>
-# 删除github仓库文件 #
+
+
+
+## 删除github仓库文件 ##
+<br>
 
 1. 进入需要删除github仓库中代码的本地文件目录(如g盘)删除test.md文件：
 ```
@@ -112,8 +116,8 @@ git push -u origin main
 <br>
 <br>
 
-
-
+## 其他 ##
+<br>
 
 显示origin与branch：
 ```
