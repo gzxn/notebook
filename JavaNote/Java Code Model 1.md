@@ -20,49 +20,49 @@
 
 ## 例子：定义一个表示学生的类，类之中包含有学生的编号、姓名、年龄。
 
-
-    class Student{
-    	private int sId;
-    	private String sName;
-    	private int sAge;
-    	public Student() {}		//无参构造方法
-    	public Student(int id , String name , int age) {
-    		this.setSId(id);
-    		this.setSName(name);
-    		this.setSAge(age);
-    	}
-    	public void setSId(int id){
-    		this.sId = id;
-    	}
-    	public void setSName(String name) {
-    		this.sName = name;
-    	}
-    	public void setSAge(int age){
-    		this.sAge = age;
-    	}
-    	public int getSId() {
-    		return sId;
-    	}
-    	public String getSName() {
-    		return sName;
-    	}
-    	public int getSAge() {
-    		return sAge;
-    	}
-    	public String getInfo() {
-    		return " 学生信息：" + "\n"+
-    				"sId = "   + this.getSId() + "\n" +
-    				"sName = " + this.getSName() + "\n" +
-    				"sAge = "  + this.getSAge();
-    	}
-}
-    
-    public class ex1 {
-    	public static void main(String[] args) {
-    		System.out.println(new Student(1808010240, "公主小鸟", 23).getInfo());
+```java
+class Student{
+	private int sId;
+	private String sName;
+	private int sAge;
+	public Student() {}		//无参构造方法
+	public Student(int id , String name , int age) {
+		this.setSId(id);
+		this.setSName(name);
+		this.setSAge(age);
 	}
-    }
+	public void setSId(int id){
+		this.sId = id;
+	}
+	public void setSName(String name) {
+		this.sName = name;
+	}
+	public void setSAge(int age){
+		this.sAge = age;
+	}
+	public int getSId() {
+		return sId;
+	}
+	public String getSName() {
+		return sName;
+	}
+	public int getSAge() {
+		return sAge;
+	}
+	public String getInfo() {
+		return " 学生信息：" + "\n"+
+				"sId = "   + this.getSId() + "\n" +
+				"sName = " + this.getSName() + "\n" +
+				"sAge = "  + this.getSAge();
+	}
+}
 
+public class ex1 {
+	public static void main(String[] args) {
+		System.out.println(new Student(1808010240, "公主小鸟", 23).getInfo());
+	}
+}
+```
 
 
 
