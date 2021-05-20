@@ -1,4 +1,4 @@
-# personal notebook （正在更新中）#
+# personal notebook（正在更新中） #
 ---
 
 ### [Java语言程序设计](https://github.com/gzxn/notebook/tree/main/JavaNote) ###
@@ -19,4 +19,4 @@
 <br>
 <br>
 
-### [Java数据结构与算法分析](https://github.com/gzxn/notebook/tree/main/JavaNote) ###
+### [Java数据结构与算法分析](https://github.com/gzxn/notebook/tree/main/JavaNotehttps://github.com/gzxn/notebook/tree/main/JavaDataStructureNote) ###
