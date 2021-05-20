@@ -1,7 +1,7 @@
 # Git命令</br> #
 ---
 
-提交本地代码进git仓库：</br>
+# 提交本地代码进Github仓库： </br> #
 
 > # 第一次 #
 
@@ -67,8 +67,72 @@ git push -u origin main
     hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 
-**解决命令：** 
+**解决命令：** 输入
 ```
 git pull --rebase origin main
 ```
+后，再按第二次操作
+
+
+
+
+
+
+
+
+
+
+</br>
+</br>
+# 删除github仓库文件 #</br>
+
+1. 进入需要删除github仓库中代码的本地文件目录(如g盘)删除test.md文件：
+```
+cd /g/学习/笔记本/Java语言程序设计/JavaNote
+```
+2. 删除文件：
+```
+git rm -r test.md
+``` 
+
+3. 提交更改：
+```
+git commit -m "remove test.md"
+```
+
+
+4. 推送更改（本地仓库中）到 GitHub：
+```
+git push -u origin main
+```
+
+
+
+<br>
+<br>
+<br>
+
+
+
+
+显示origin与branch：
+```
+git remote show branch
+```
+
+
+
+
+删除分支：
+```
+git branch -d BranchName
+```
+
+
+
+
+
+
+
+
 
