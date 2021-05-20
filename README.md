@@ -4,7 +4,7 @@
 ### [Java语言程序设计](https://github.com/gzxn/notebook/tree/main/JavaNote)
 
 
-> ## Java语言基础部分
+> ### Java语言基础部分
 ## 第1章
 
 ## 第3章
