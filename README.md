@@ -5,16 +5,16 @@
 
 
 > ### Java语言基础部分
-## 第1章
+## Chapter 1
 
-## 第3章
+## Chapter 3
 
-## 第4章
-### 4.1、数组
-### 4.2、String类
-### 4.3、this关键字
+## Chapter 4
+### Chapter 4.1、数组
+### Chapter 4.2、String类
+### Chapter 4.3、this关键字
 
-## 第5章
+## Chapter 5
 
 <br>
 <br>
