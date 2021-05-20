@@ -1,4 +1,4 @@
-# personal notebook #
+# personal notebook （正在更新中）#
 ---
 
 ### [Java语言程序设计](https://github.com/gzxn/notebook/tree/main/JavaNote) ###
@@ -15,3 +15,8 @@
 ### 4.3、this关键字 ###
 
 ## 第5章 ##
+
+<br>
+<br>
+
+### [Java数据结构与算法分析](https://github.com/gzxn/notebook/tree/main/JavaNote) ###
