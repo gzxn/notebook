@@ -123,10 +123,11 @@ cd /g/学习/笔记本/Java语言程序设计/JavaNote
 2. 重命名文件：
 <br>
 格式：
-    git mv old_filename new_filename
-    git mv 'old_filename' 'new_filename'
-    git mv "old_filename" "new_filename"  
-
+``` 
+git mv old_filename new_filename
+git mv 'old_filename' 'new_filename'
+git mv "old_filename" "new_filename"  
+``` 
 <br>
 
 ```
