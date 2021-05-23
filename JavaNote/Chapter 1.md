@@ -89,10 +89,8 @@ JDK的编译器为javac
 ***
 
 
-
-![](https://tcs.teambition.net/storage/3124b20cf9ccdce65162b4b758f413045974?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAzNjg5NCwiaWF0IjoxNjIxNDMyMDk0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjRiMjBjZjljY2RjZTY1MTYyYjRiNzU4ZjQxMzA0NTk3NCJ9.kUy3wEou5pJn2h228h_-q7ceonmNWyCFISxsfbFJxhs&download=image.png "")
-
-        学会Java的标准：可以根据每一个关键字，说出每一个关键字的作用，同时可以使用范例代码进行验证，说出使用的形式以及注意的事项。
+**学会Java的标准：**
+可以根据每一个关键字，说出每一个关键字的作用，同时可以使用范例代码进行验证，说出使用的形式以及注意的事项。
 
 
 

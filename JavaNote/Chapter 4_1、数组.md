@@ -36,10 +36,6 @@
 
 ![](https://tcs.teambition.net/storage/31244e3046405080134d179c36ffe6588654?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjQ0ZTMwNDY0MDUwODAxMzRkMTc5YzM2ZmZlNjU4ODY1NCJ9.YaNrMY0wOs-Nvea4dZW5biaNE1fg55Wfo0t-Q0aYk4Q&download=image.png "")
 
-
-
-
-
 ### 3.1、动态数组与静态数组：
 
 - 动态数组：开辟的数组长度由用户决定，开辟之后的数据内容由系统来决定，系统认定的是对应数据类型的默认值。如 ：int data [] = new int [] ;
@@ -47,28 +43,15 @@
 - 静态数组：开辟的数组长度由用户决定，开辟之后的数据内容由用户来初始化指定。并且数组的长度一定只能够使用“数组名称.length”取得。如： int data [] = new int [] {4,8,5,6,3} ;
 
 
-
-
-
-
-
 ## 4、数组排序：
-
-
 
 ![](https://tcs.teambition.net/storage/3124519122875f4585dea1cea5ed1609cda4?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjQ1MTkxMjI4NzVmNDU4NWRlYTFjZWE1ZWQxNjA5Y2RhNCJ9.ODuE30QD9Q83Uq2zurv-RGwuobM_txCd6L7rgG8J08s&download=image.png "")
 
 ![](https://tcs.teambition.net/storage/31244faf90c3de57daa99abbb80fd0d18307?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjQ0ZmFmOTBjM2RlNTdkYWE5OWFiYmI4MGZkMGQxODMwNyJ9.GCwz1NiTAQaAgSZEV0qBfs5k-nQfZNPbKuUgT6_Z-DQ&download=image.png "")
 
-
-
-
-
 ### 4.1、不引入第3个变量实现数据交换：
 
 ![](https://tcs.teambition.net/storage/3124fd0b87a861c111639a1f47a44cb36117?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjRmZDBiODdhODYxYzExMTYzOWExZjQ3YTQ0Y2IzNjExNyJ9.F83I4uvH6eUc40uqTZHhVuD2y4yehc9fXWJ7xVRAobY&download=image.png "")
-
-
 
 ```java
 public class Ex1 {
@@ -99,33 +82,17 @@ public class Ex1 {
 
 ```
 
-
-
-
-
 # 二维数组：（理解）
-
-
 
 ![](https://tcs.teambition.net/storage/31248f81da1a27a78340e2da2569037c73fa?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjQ4ZjgxZGExYTI3YTc4MzQwZTJkYTI1NjkwMzdjNzNmYSJ9.ZpZryk9A3L0dY8uIO1WrGLHbtz-aSgwtcMORUn0bxLg&download=image.png "")
 
-
-
 ![](https://tcs.teambition.net/storage/31244f3e7dfaf24c15e84522c6d52ad765d8?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjQ0ZjNlN2RmYWYyNGMxNWU4NDUyMmM2ZDUyYWQ3NjVkOCJ9.etNkQhL7tI38denRjlEUWM41_OgrS5BgV-GDCQfemSA&download=image.png "")
-
-
 
 ![](https://tcs.teambition.net/storage/3124fdaf328e6f5d3baea389fb699a28a6ef?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjRmZGFmMzI4ZTZmNWQzYmFlYTM4OWZiNjk5YTI4YTZlZiJ9.IBkp6MKMyo31gdnjckTfrtLhcSydF7IF0VnnnmhuQwY&download=image.png "")
 
 ![](https://tcs.teambition.net/storage/31243556d29a04e2d4894724036c5884b076?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjQzNTU2ZDI5YTA0ZTJkNDg5NDcyNDAzNmM1ODg0YjA3NiJ9.Be8tcW9Dy4s-IgW4kHg33uyqU22dTkDxBoOqn1TE99k&download=image.png "")
 
-
-
-
-
 # 数组与方法的操作（难）
-
-
 
 ## 1、范例：让方法的参数接收数组
 
@@ -133,56 +100,35 @@ public class Ex1 {
 
 ![](https://tcs.teambition.net/storage/31246870c087297c9c42462acbc5b35284dc?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjQ2ODcwYzA4NzI5N2M5YzQyNDYyYWNiYzViMzUyODRkYyJ9.QZvPkFkWct8_DMqOmNqfy-Et885NxPpVTb7RIz5dW2U&download=image.png "")
 
-
-
-
-
 ## 2、范例：现在假设有一个int型数组，在里面有多个数据，如果要想判断某一个数据是否存在，该如何实现？
 
 - 垃圾实现（别用）
 
 ![](https://tcs.teambition.net/storage/3124c89e8ed9fa10e14f65fdddb0929248d2?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjRjODllOGVkOWZhMTBlMTRmNjVmZGRkYjA5MjkyNDhkMiJ9.g2Po790-s0QzasDqpul1t47q7iQbB44ZfQ2-DqOHcQ4&download=image.png "")
 
-
-
 - 方法实现
 
 ![](https://tcs.teambition.net/storage/3124deeaff178f956807373e132ed75ab0b6?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjRkZWVhZmYxNzhmOTU2ODA3MzczZTEzMmVkNzVhYjBiNiJ9.7POUuer63-DjTxtarBVsI5Jp_VTx4WNLPjzF4YtcoUw&download=image.png "")
-
 
 
 开发原则：主方法之中的代码越少越好，主方法只需要调用方法就可以完成指定的功能。
 
 - 利用方法减少客户端代码，在java之中有一个命名规范，如果说某一个方法返回的数据类型是boolean类型，一般此方法名称都会以 “isXxx()” 的形式命名。
 
-
-
-
-
 ## 3、范例：定义方法修改数组内容。
-
-
 
 ![](https://tcs.teambition.net/storage/3124c815df64a4c5978902930beaf70c14bb?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjRjODE1ZGY2NGE0YzU5Nzg5MDI5MzBiZWFmNzBjMTRiYiJ9.iKMpQ4kZHMwGJBjISmLYfr4TXAGZvD4TZ7n4xhtC_sQ&download=image.png "")
 
 ![](https://tcs.teambition.net/storage/31248b0c51f93e66e81e6ddcaacc2ebd3c2a?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjQ4YjBjNTFmOTNlNjZlODFlNmRkY2FhY2MyZWJkM2MyYSJ9.AEBgybTJvs5TuXvQ_g8it1Xd7_WwmXbIKNRpB9gOFRM&download=image.png "")
-
-
 
 在引用数据类型操作之中，经常会出现在方法里面修改引用数据类型的形式，此时不要看代码，要回顾内存关系。
 
 - 注意：引用数据类型之中最大的的特点是方法里面可以修改数组内容。
 
 
-
-
-
 ## 4、范例：定义方法返回数组
 
-
-
 ![](https://tcs.teambition.net/storage/312475228dc071f8baa15c3dd94974f976c2?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjQ3NTIyOGRjMDcxZjhiYWExNWMzZGQ5NDk3NGY5NzZjMiJ9.XUA4cpTTnrDTACYC-G_by5ZxuulYRa8RvE1skKB2_Ao&download=image.png "")
-
 
 
 ```java
@@ -217,15 +163,9 @@ public class ex4 {
 }
 ```
 
-
-
 ## 5、范例：现在假设给出一个double型数组，要求定义一个方法，此方法可以统计出数组各个元素的和、平均值、最大值、最小值。
 
-
-
 解题思路：一般一个方法只能够返回一个数据类型，但是现在需要返回的数据有四个，那么只能够将方法的返回值类型定义为数组，其中此数组第一个元素表示和，第二个元素表示平均值，第三个元素表示最大值，第四个元素表示最小值。
-
-
 
 ![](https://tcs.teambition.net/storage/31247347629a0f085b87eef8f8bc707be221?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjQ3MzQ3NjI5YTBmMDg1Yjg3ZWVmOGY4YmM3MDdiZTIyMSJ9.voVNHEtMJaQzK2fkcxmMbWr9Gc8emTUe7_4gE3wXW3w&download=image.png "")
 
@@ -262,13 +202,7 @@ public class Ex3 {
 }
 ```
 
-
-
-
-
 ### 面试题：请将一个数组进行转置
-
-
 
 1. 情况一：转置的数组是一维数组。
 
@@ -280,11 +214,7 @@ public class Ex3 {
 
         - 此方法一定会产生垃圾空间，而产生垃圾空间的代码我们应该尽量回避。
 
-
-
 ![](https://tcs.teambition.net/storage/3124cf06f5ce495cb0b2f1ad2c343f871e05?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjRjZjA2ZjVjZTQ5NWNiMGIyZjFhZDJjMzQzZjg3MWUwNSJ9.Pcg8qCW9vG3--9S7mf1Xzv9_CzhQifPKJAlpT7KlA_o&download=image.png "")
-
- 
 
     - 方法二：实现数据的首尾交换。
 
@@ -304,37 +234,21 @@ public class Ex3 {
 
 ![](https://tcs.teambition.net/storage/312433810077486ff156ada6a61bf0af3f6a?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjQzMzgxMDA3NzQ4NmZmMTU2YWRhNmE2MWJmMGFmM2Y2YSJ9.rCTi5w5C2Epse5MRxTXs7xscVUXjpzKzp3TftRYDuZQ&download=image.png "")
 
-
-
-
-
 1. 情况二：转置的数组是二维数组。
 
 转置前提：行和列相同
 
-
-
 ![](https://tcs.teambition.net/storage/3124a3d7e1a9bb2f55982c80f4bdc0abcbbd?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjRhM2Q3ZTFhOWJiMmY1NTk4MmM4MGY0YmRjMGFiY2JiZCJ9.BDYHANF03UelJJHOCgcNnwQXBjuiEtSde8c2a7G7-3c&download=image.png "")
-
-
 
 ![](https://tcs.teambition.net/storage/3124a886b932ada1369b124aed58a9229831?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjRhODg2YjkzMmFkYTEzNjliMTI0YWVkNThhOTIyOTgzMSJ9.y1IXFcd-DRmhTpfRrr6SvDPloLxxErj667mKIHAdX1Y&download=image.png "")
 
 ![](https://tcs.teambition.net/storage/312476de1c740aaea2ee4fc7cb909e44aec7?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjQ3NmRlMWM3NDBhYWVhMmVlNGZjN2NiOTA5ZTQ0YWVjNyJ9.aOY9GxQoz7WkVzN7IKGYDffpXSVfOqIpG0_9rKaJYbw&download=image.png "")
 
-
-
-
-
 # 与数组有关的操作方法
-
-
 
 1、数组拷贝：
 
 - 语法（不完整）：System.arraycopy(原数组名称，原数组开始点，目标数组名称，目标数组长度);
-
-
 
 范例：实现数组拷贝
 
@@ -345,7 +259,6 @@ public class Ex3 {
 - 拷贝后的数组一：1、2、3、55、66、77、7、8、9
 
 ![](https://tcs.teambition.net/storage/3124d7b0f390926ada7990526ee5077fdfa5?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjRkN2IwZjM5MDkyNmFkYTc5OTA1MjZlZTUwNzdmZGZhNSJ9.7ulHoJL_Nm5Y5667xv0t4ZLkWNOglCGE3z4XRzUICBg&download=image.png "")
-
 
 
 思考题：在原有数组{1，3，5，7}上，扩充数组容量为2
@@ -359,9 +272,6 @@ public class Ex3 {
 ![](https://tcs.teambition.net/storage/31248f10762bbb28c8314d55ccbf206bd46d?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjQ4ZjEwNzYyYmJiMjhjODMxNGQ1NWNjYmYyMDZiZDQ2ZCJ9.9dgFD8YuVE8Qz8bqh1V-yKIvE7ay4_4V-n9ZD51ouzk&download=image.png "")
 
 
-
-
-
 2、数组排序：
 
 - 语法：java.util.Arrays.sort(数组名称);
@@ -369,18 +279,11 @@ public class Ex3 {
 ![](https://tcs.teambition.net/storage/31247ff05b5d699dc37302c6d26cdde6ded9?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjQ3ZmYwNWI1ZDY5OWRjMzczMDJjNmQyNmNkZGU2ZGVkOSJ9.aZSUbmvFHZUMaBONY5r-0OC_aRcRwPT1QkjlDouV1yc&download=image.png "")
 
 
-
-
-
 # 对象数组（重点）
-
-
 
 对象数组包含的一定是多个操作对象。
 
 ![](https://tcs.teambition.net/storage/3124c42c3bcbf662eb5bf6a47d667e70ecc1?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjRjNDJjM2JjYmY2NjJlYjViZjZhNDdkNjY3ZTcwZWNjMSJ9.0Et8nM9nR5-Ea9G7nSO-shMfvvogybL3ZNKTLuq_OWE&download=image.png "")
-
-
 
 范例：动态数组初始化
 
@@ -388,25 +291,15 @@ public class Ex3 {
 
 ![](https://tcs.teambition.net/storage/31245ee144aa239952a7eca725decf8f01dc?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjQ1ZWUxNDRhYTIzOTk1MmE3ZWNhNzI1ZGVjZjhmMDFkYyJ9.w2rvAodyJS441BuTNI5OrxUuN7HTOlhc21fzMzyqzy0&download=image.png "")
 
-
-
 范例：静态数组初始化
 
 写法一：
 
 ![](https://tcs.teambition.net/storage/3124d8fc4bdd5b05207f3de5bf70684bbf25?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjRkOGZjNGJkZDViMDUyMDdmM2RlNWJmNzA2ODRiYmYyNSJ9.cIAk-FGihVU4vQA1axirqQgg9bs69ucTroJj3bPgYJ0&download=image.png "")
 
-
-
 写法二：
 
 ![](https://tcs.teambition.net/storage/31248866efae613ba68713d90de41d85a845?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjAyOTQyMywiaWF0IjoxNjIxNDI0NjIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjQ4ODY2ZWZhZTYxM2JhNjg3MTNkOTBkZTQxZDg1YTg0NSJ9.19mnbyXBgOtFx8b1mpdKH5oBHXQxB9CAh70oJpf1LP4&download=image.png "")
-
-
-
-
-
-
 
 # 总结：
 
