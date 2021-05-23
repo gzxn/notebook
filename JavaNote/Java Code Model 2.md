@@ -2,7 +2,8 @@
 
 
 
-**题目：**使用emp雇员表（empno、ename、job、sal、comm、*mgr*、*deptno*）和dept部门表（*deptno*、dname、loc）实现以下功能：其中mgr、deptno为关联字段
+**题目：**
+使用emp雇员表（empno、ename、job、sal、comm、*mgr*、*deptno*）和dept部门表（*deptno*、dname、loc）实现以下功能：其中mgr、deptno为关联字段
 
 - 功能一：可以输出部门的完整信息，同时输出部门之中所有雇员直接领导的信息；
 
@@ -16,7 +17,8 @@
 
 
 
-**步骤一：**编写简单java类，暂时只包含表之中的基本字段。
+**步骤一：**
+编写简单java类，暂时只包含表之中的基本字段。
 
 ```java
 class Emp{
@@ -69,7 +71,8 @@ public class TestDemo{
 
 
 
-**步骤二：**设置关系字段
+**步骤二：**
+设置关系字段
 
 - 一对多关系：部门和雇员；
 
@@ -149,7 +152,8 @@ public class TestDemo{
 
 
 
-**步骤三：**按照表结构设置数据，同时设置完数据后按照表结构取出数据
+**步骤三：**
+按照表结构设置数据，同时设置完数据后按照表结构取出数据
 
 ```java
 //雇员类
@@ -256,7 +260,7 @@ public class TestDemo{
 
 
 
-运行结果**：**
+**运行结果：**
 
 ![](https://tcs.teambition.net/storage/31256423484c9a89f7fe02a92bc5cc40680c?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjM2Mzg1OSwiaWF0IjoxNjIxNzU5MDU5LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjU2NDIzNDg0YzlhODlmN2ZlMDJhOTJiYzVjYzQwNjgwYyJ9.aly4t65ij9N9NS7XZ42ST0etK6VflDPpEg5Ec2Hm9BA&download=image.png "")
 
