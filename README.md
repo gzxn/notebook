@@ -19,8 +19,9 @@
 	- Chapter 4.3、this关键字
 - Chapter 5
 	- Chapter 5.1、static关键字
-
-
+- Java Code Model 1
+- Java Code Model 2
+- Java Code Model 3 
 <br>
 <br>
 
