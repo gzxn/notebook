@@ -1,7 +1,7 @@
 # Git命令</br>
 ---
 
-# 提交本地代码进Github仓库： </br>
+# 1、提交本地代码进Github仓库： </br>
 
 > # 第一次
 
@@ -87,7 +87,7 @@ git pull --rebase origin main
 
 
 
-## 删除github仓库文件
+## 2、删除github仓库文件
 <br>
 
 1. 进入需要删除github仓库中代码的本地文件目录(如g盘)删除test.md文件：
@@ -113,7 +113,42 @@ git push -u origin main
 <br>
 <br>
 
-## 回退版本
+## 3、重命名GitHub文件
+<br>
+
+1. 进入需要重命名github仓库中代码的本地文件目录(如g盘)重命名test.md文件：
+```
+cd /g/学习/笔记本/Java语言程序设计/JavaNote
+```
+2. 重命名文件：
+<br>
+格式：
+    git mv old_filename new_filename
+    git mv 'old_filename' 'new_filename'
+    git mv "old_filename" "new_filename"  
+
+<br>
+
+```
+git mv 'chapter 5.1、static关键字.md' 'Chapter 5.1、static关键字.md'
+``` 
+
+3. 提交更改：
+```
+git commit -m "rename chapter 5.1、static关键字.md -> Chapter 5.1、static关键字.md"
+```
+
+
+4. 推送更改（本地仓库中）到 GitHub：
+```
+git push -u origin main
+```
+
+
+<br>
+<br>
+
+## 回退版本（待更新）
 
 
 <br>
