@@ -1,5 +1,4 @@
 
-
 # **回顾：**
 
 **1、String 类的主要特点：**
@@ -26,6 +25,8 @@
 
 - this表示当前对象：当前正在调用本类中方法的对象。
 
+<br>
+<br>
 
 ![](https://tcs.teambition.net/storage/31257fb6982e64069d187a64c56d319e2e3a?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjQ0NzcyNywiaWF0IjoxNjIxODQyOTI3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjU3ZmI2OTgyZTY0MDY5ZDE4N2E2NGM1NmQzMTllMmUzYSJ9.EOjvBhWmIc4Z0rqRNE_kiVx3xbCETyg3zHIkYSGSTis&download=image.png "")
 
@@ -89,13 +90,19 @@ public class Ex1 {
 		//第二层次：根据关系取数据
 		System.out.println(type.getInfo());
 		for(int i = 0;i<type.getSubTypes().length;i++) {
-			System.out.println(type.getSubTypes()[i].getInfo());
+			System.out.println("\t|-" + type.getSubTypes()[i].getInfo());
 		}
 	}
 }
 
 ```
+<br>
 
+**运行结果：**
+
+![](https://tcs.teambition.net/storage/3125248f8dc791e03d52e757cd46c8c9e4c4?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IjVmYzRhYjcxYTNkYmY4NTljODhlMzdiNSIsImV4cCI6MTYyMjQ1MTk3NCwiaWF0IjoxNjIxODQ3MTc0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjUyNDhmOGRjNzkxZTAzZDUyZTc1N2NkNDZjOGM5ZTRjNCJ9.Ol8r4l7j3WrKOIu0HoKRDFGt5IqD3O2dkIimfkxVB0w)
+
+<br>
 
 ![](https://tcs.teambition.net/storage/3125df66882fe4f9fe07a72f46ec3fc8d98a?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjQ0NzcyNywiaWF0IjoxNjIxODQyOTI3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjVkZjY2ODgyZmU0ZjlmZTA3YTcyZjQ2ZWMzZmM4ZDk4YSJ9.SF0kY6XC2k2J1P7hLOUUzOeJFTwYO5LiKEL4-gNhfvI&download=image.png "")
 
@@ -171,11 +178,13 @@ public class Ex2 {
 }
 
 ```
+<br>
 
 **运行结果：**
 
 ![](https://tcs.teambition.net/storage/31254e1d998bbadc780b48b01634900bd972?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IjVmYzRhYjcxYTNkYmY4NTljODhlMzdiNSIsImV4cCI6MTYyMjQ0OTkyNiwiaWF0IjoxNjIxODQ1MTI2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjU0ZTFkOTk4YmJhZGM3ODBiNDhiMDE2MzQ5MDBiZDk3MiJ9.zNo_1-BWSIjeBU3_xzpPUui9zqcqp6S2wRLLFgl0ErY&download=image.png "")
 
+<br>
 
 ![](https://tcs.teambition.net/storage/3125ef5f09dab207d7ef3ebd9bde433be255?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjQ0NzcyNywiaWF0IjoxNjIxODQyOTI3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjVlZjVmMDlkYWIyMDdkN2VmM2ViZDliZGU0MzNiZTI1NSJ9.RRUqqBQOQ2OgyT6bHol2RRjJ0OveiJtEM8z1sKlJHW0&download=image.png "")
 
@@ -315,6 +324,7 @@ public class Ex3 {
 }
 
 ```
+<br>
 
 **运行结果：**
 
