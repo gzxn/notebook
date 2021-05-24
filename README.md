@@ -17,6 +17,7 @@
 	- Chapter 4_1、数组
 	- Chapter 4_2、String类
 	- Chapter 4_3、this关键字
+	- Chapter 4_4、引用实际案例
 - Chapter 5
 	- Chapter 5_1、static关键字
 - Java Code Model 1
