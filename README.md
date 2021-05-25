@@ -20,6 +20,7 @@
 	- Chapter 4_4、引用实际案例
 - Chapter 5
 	- Chapter 5_1、static关键字
+	- Chapter 5_2、代码块
 - Java Code Model 1
 - Java Code Model 2
 - Java Code Model 3 
