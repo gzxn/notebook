@@ -1,7 +1,12 @@
-# Git命令</br>
+# Git命令
+
+</br>
+
 ---
 
-# 1、提交本地代码进Github仓库： </br>
+## 1、提交本地代码进Github仓库： 
+
+</br>
 
 > # 第一次
 
@@ -57,7 +62,7 @@ git push -u origin main
 
 ### 出错类型
 
-**问题1:**
+**出错1:**
 
     ! [rejected]main -> main (non-fast-forward)
     error: failed to push some refs to 'https://github.com/gzxn/notebook.git'
@@ -79,15 +84,13 @@ git pull --rebase origin main
 
 
 
-
-
-
 </br>
 </br>
 
 
 
 ## 2、删除github仓库文件
+
 <br>
 
 1. 进入需要删除github仓库中代码的本地文件目录(如g盘)删除test.md文件：
@@ -104,7 +107,6 @@ git rm -r test.md
 git commit -m "remove test.md"
 ```
 
-
 4. 推送更改（本地仓库中）到 GitHub：
 ```
 git push -u origin main
@@ -114,14 +116,18 @@ git push -u origin main
 <br>
 
 ## 3、重命名GitHub文件
+
 <br>
 
 1. 进入需要重命名github仓库中代码的本地文件目录(如g盘)重命名test.md文件：
 ```
 cd /g/学习/笔记本/Java语言程序设计/JavaNote
 ```
+
 2. 重命名文件：
+
 <br>
+
 格式：
 
 ```
@@ -141,7 +147,6 @@ git mv 'chapter 5.1、static关键字.md' 'Chapter 5.1、static关键字.md'
 git commit -m "rename chapter 5.1、static关键字.md -> Chapter 5.1、static关键字.md"
 ```
 
-
 4. 推送更改（本地仓库中）到 GitHub：
 ```
 git push -u origin main
@@ -159,6 +164,7 @@ git push -u origin main
 <br>
 
 ## 其他
+
 <br>
 
 显示origin与branch：
