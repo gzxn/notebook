@@ -309,11 +309,9 @@ public class TestDemo {
 
 # 4.4、匿名对象
 
+在之前所使用的全部都是有名对象，例如发现对象的实例化格式：
 
-![](https://tcs.teambition.net/storage/3124946a93c188186c80ca27814d183a968c?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjY0NzYwNCwiaWF0IjoxNjIyMDQyODA0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjQ5NDZhOTNjMTg4MTg2YzgwY2EyNzgxNGQxODNhOTY4YyJ9.9km9562u_CEPe1gH6RPKE3dHcH7EyF_W6fCV0Fi_CU0&download=image.png "")
-
-<br>
-
+- 类名称 对象名 = new 类名称();
 - 对象的名字保存在栈内存之中，而每调用对象名称的时候，实际上调用的都是堆内存的操作，所以堆内存是对象真正有用的部分，那么所谓的匿名对象就是指开辟了堆内存空间，但是没有栈内存指向的对象。
 
 <br>
