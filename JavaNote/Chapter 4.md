@@ -111,7 +111,7 @@ public class Ex3{
 }
 ```
 
-运行结果同上。
+**运行结果同上**
 
 <br>
 
@@ -172,6 +172,7 @@ public class Ex3 {
 <br>
 
 **开发原则：**
+
 以后只要是类之中的属性不需要思考永恒都要使用private封装，封装之后的属性一定要编写setter、getter方法设置和取得。
 
 <br>
@@ -219,6 +220,7 @@ public class Ex4 {
 ```
 
 <br>
+
 **运行结果：**
 
 ![](https://tcs.teambition.net/storage/31255eda20dc70fc3c745908e4ccbe3c6080?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjY0NzYwNCwiaWF0IjoxNjIyMDQyODA0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjU1ZWRhMjBkYzcwZmMzYzc0NTkwOGU0Y2NiZTNjNjA4MCJ9.sKLZTU-00rCDN6Phmmscb6qAtdowvwKcwRs-tXLGJpU&download=image.png "")
@@ -276,6 +278,7 @@ public class TestDemo {
 ```
 
 <br>
+
 **运行结果：**
 
 ![](https://tcs.teambition.net/storage/3125b22209f8fa674a5eb9cd21c87d1a583f?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYyMjY0NzYwNCwiaWF0IjoxNjIyMDQyODA0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjViMjIyMDlmOGZhNjc0YTVlYjljZDIxYzg3ZDFhNTgzZiJ9.moQNuqtm9zIExi24nyBczMkizxY4MGJThlVpRUQOILU&download=image.png "")
