@@ -21,6 +21,7 @@
 - Chapter 5
 	- Chapter 5_1、static关键字
 	- Chapter 5_2、代码块
+	- Chapter 5_3、内部类
 - Java Code Model 1
 - Java Code Model 2
 - Java Code Model 3 
